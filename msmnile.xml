@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <refs>
-    <image name="LA.QSSI.11.0.r1" project="la/system/manifest" server="git://git-android.quicinc.com" tag="AU_LINUX_ANDROID_LA.QSSI.11.0.R1.11.00.00.668.096" targets="qssi"/>
-  </refs>
-  <remote fetch="https://source.codeaurora.org/quic/la/" name="caf" review="codeaurora.org"/>
-  <default remote="caf" revision="LA.UM.9.1.r1"/>
   <project name="abl/tianocore/edk2" path="bootable/bootloader/edk2" revision="d435427e90f2bc4d61602ae65a8bfca889d78dfd" upstream="refs/heads/uefi.lnx.2.0.r3-rel"/>
   <project name="device/qcom/common" revision="a04f0fb1000ce58158c2e4d76ab3058f9b973625" upstream="refs/heads/qcom-devices.lnx.6.0.r2-rel">
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
